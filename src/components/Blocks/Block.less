@@ -1,0 +1,173 @@
+@import "../variables";
+
+.blocks {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	@media (max-width: 1180px) {
+		flex-flow: column;
+	}
+	.block {
+		width: 330px;
+		height: 500px;
+		border: 1px solid #929292;
+		border-radius: 10px;
+		overflow: hidden;
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+		margin-bottom: 30px;
+		cursor: default;
+		@media (max-width: 420px) {
+			width: 250px;
+			height: 420px;
+		}
+		h3 {
+			background-color: #8C8C8C;
+			color: #FFFFFF;
+			font: 600 24px 'Raleway', sans-serif;
+			text-align: center;
+			padding: 30px 0;
+			position: relative;
+			transition: background-color 0.4s linear;
+			letter-spacing: 0.0625em;
+			@media (max-width: 420px) {
+				padding: 10px 20px;
+				font-size: 26px;
+				white-space: pre-wrap;
+			}
+			&:after {
+				content: '';
+				border-top: 20px solid #8C8C8C;
+				border-right: 165px solid transparent;
+				border-left: 165px solid transparent;
+				position: absolute;
+				width: 0;
+				height: 0;
+				bottom: -20px;
+				left: 50%;
+				transform: translateX(-50%);
+				transition: border-top-color 0.4s linear;
+			}
+		}
+		ul {
+			margin-top: 50px;
+			padding: 0 20px;
+			@media (max-width: 420px) {
+				padding: 0 10px;
+				margin-top: 35px;
+			}
+			li {
+				text-align: left;
+				font: 20px 'Montserrat', sans-serif;
+				color: #8C8C8C;
+				padding: 10px 0;
+				transition: color 0.4s linear;
+				position: relative;
+				margin-left: 85px;
+				@media (max-width: 420px) {
+					padding: 7px 0;
+				}
+			}
+			.html:before,
+			.css:before,
+			.bootstrap:before,
+			.javascript:before,
+			.react:before,
+			.vue:before,
+			.jquery:before,
+			.node:before,
+			.express:before,
+			.postgre:before,
+			.git:before,
+			.github:before,
+			.photoshop:before {
+				content: '';
+				position: absolute;
+				left: -60px;
+				filter: grayscale(100%);
+				width: 30px;
+				height: 30px;
+				transition: filter 0.4s linear;
+			}
+			.html:before {
+				background: url("/icons/HTML5_Badge.svg") no-repeat center;
+				background-size: contain;
+			}
+			.css:before {
+				background: url("/icons/css-mobile.svg") no-repeat center;
+				background-size: contain;
+			}
+			.bootstrap:before {
+				background: url("/icons/");
+				background-size: contain;
+			}
+			.javascript:before {
+				background: url("/icons/javascript-1.svg") no-repeat center;
+				background-size: contain;
+			}
+			.react:before {
+				background: url("/icons/React-Logo.svg") no-repeat center;
+				background-size: contain;
+			}
+			.vue:before {
+				background: url("/icons/vue-9.svg") no-repeat center;
+				background-size: contain;
+			}
+			.jquery:before {
+				background: url("/icons/jquery.svg") no-repeat center;
+				background-size: contain;
+			}
+			.node:before {
+				background: url("/icons/nodejs.svg") no-repeat center;
+				background-size: contain;
+			}
+			.express:before {
+				background: url("/icons/express-js-icon-2.svg") no-repeat center;
+				background-size: contain;
+			}
+			.postgre:before {
+				background: url("/icons/postgresql.svg") no-repeat center;
+				background-size: contain;
+			}
+			.git:before {
+				background: url("/icons/Git_icon.svg") no-repeat center;
+				background-size: contain;
+			}
+			.github:before {
+				background: url("/icons/Octicons-mark-github-2.svg") no-repeat center;
+				background-size: contain;
+			}
+			.photoshop:before {
+				background: url("/icons/photoshop-cc.svg") no-repeat center;
+				background-size: contain;
+			}
+		}
+		&:hover {
+			h3 {
+				background-color: @accent-color;
+				&:after {
+					border-top-color: @accent-color;
+				}
+			}
+			li {
+				color: #000000;
+			}
+			.html:before,
+			.css:before,
+			.bootstrap:before,
+			.javascript:before,
+			.react:before,
+			.vue:before,
+			.jquery:before,
+			.node:before,
+			.express:before,
+			.postgre:before,
+			.git:before,
+			.github:before,
+			.photoshop:before {
+				filter: grayscale(0%);
+			}
+		}
+	}
+}
