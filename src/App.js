@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import Nav from './components/Nav/Nav';
 import Welcome from './components/Welcome/Welcome';
 import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 class App extends Component {
@@ -11,6 +14,9 @@ class App extends Component {
 				<Nav/>
 				<Welcome/>
 				<Skills/>
+				<Projects/>
+				<Contact/>
+				<Footer/>
 			</div>
 		);
 	}

@@ -5,3 +5,9 @@
 .App {
 
 }
+
+h2 {
+	font: 600 36px 'Raleway', sans-serif;
+	text-transform: capitalize;
+	text-align: center;
+}
