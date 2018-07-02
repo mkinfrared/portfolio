@@ -1,0 +1,82 @@
+@import "hamburgers.css";
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 54px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+@media (max-width: 640px) {
+  .nav {
+    padding: 10px 0;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+.nav .logo {
+  margin-left: 5%;
+}
+.nav .logo p {
+  font: 34px 'Raleway', sans-serif;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.nav .open {
+  overflow: auto;
+  max-height: 236px;
+  transition: max-height 0.2s linear;
+}
+.nav ul {
+  margin-right: 5%;
+  display: flex;
+}
+@media (max-width: 640px) {
+  .nav ul {
+    max-height: 0;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    width: 100vw;
+    top: 100%;
+    transition: max-height 0.2s linear;
+  }
+}
+.nav ul li {
+  margin-right: 10px;
+}
+@media (max-width: 640px) {
+  .nav ul li {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  .nav ul li:last-child {
+    border-bottom: none;
+  }
+}
+.nav ul li:last-child {
+  margin-right: 0;
+}
+.nav ul li a {
+  text-decoration: none;
+  font: 14px 'Montserrat', sans-serif;
+  outline: none;
+  color: #FFFFFF;
+}
+.nav .hamburger {
+  display: none;
+  margin-right: 5%;
+}
+@media (max-width: 640px) {
+  .nav .hamburger {
+    display: block;
+  }
+}
+/*# sourceMappingURL=Nav.css.map */

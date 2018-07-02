@@ -1,0 +1,37 @@
+.projects {
+  min-height: 100vh;
+}
+.projects .projects-wrapper {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.projects .projects-wrapper a {
+  text-decoration: none;
+}
+.projects .projects-wrapper a .project {
+  width: 480px;
+  height: 325px;
+  background-color: #555555;
+}
+.projects .projects-wrapper a .project .snapshot {
+  width: 100%;
+  padding: 0;
+}
+.projects .projects-wrapper a .project .snapshot img {
+  width: 100%;
+  white-space: nowrap;
+}
+.projects .projects-wrapper a .project .description {
+  padding: 5px 20px;
+  font: 16px 'Montserrat', sans-serif;
+  color: #c5b199;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+}
+.projects .projects-wrapper a .project .description p {
+  color: #878787;
+}
+/*# sourceMappingURL=Projects.css.map */
