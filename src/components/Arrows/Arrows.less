@@ -1,0 +1,65 @@
+@import "../variables";
+
+.arrows {
+	position: absolute;
+	z-index: 3;
+	left: 50%;
+	top: 82%;
+	transform: translateX(-50%);
+	.arrow {
+		width: 2vw;
+		height: 2vw;
+		border-left: 3px solid @accent-color;
+		border-bottom: 3px solid @accent-color;
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		transform: rotate(-45deg);
+		@media (max-width: 680px) {
+			border-left: 1px solid @accent-color;
+			border-bottom: 1px solid @accent-color;
+		}
+	}
+	.arrow-1 {
+		animation: arrow-1-anim 1.5s infinite;
+	}
+	.arrow-2 {
+		animation: arrow-2-anim 1.5s infinite;
+	}
+	.arrow-3 {
+		animation: arrow-3-anim 1.5s infinite;
+	}
+	@keyframes arrow-1-anim {
+		0% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0.2;
+		}
+	}
+	@keyframes arrow-2-anim {
+		0% {
+			transform: translateY(0) rotate(-45deg);
+		}
+		99% {
+			transform: translateY(2vw) rotate(-45deg);
+		}
+		100% {
+			transform: translateY(0) rotate(-45deg);
+		}
+	}
+	@keyframes arrow-3-anim {
+		0% {
+			transform: translateY(0) rotate(-45deg);
+			opacity: 1;
+		}
+		99% {
+			transform: translateY(1vw) rotate(-45deg);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateY(0) rotate(-45deg);
+			opacity: 1;
+		}
+	}
+}

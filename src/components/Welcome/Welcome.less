@@ -1,0 +1,21 @@
+.welcome {
+	width: 100%;
+	height: 100vh;
+	background: url("/images/mountain.jpg") no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	.typed-text {
+		color: #FFFFFF;
+		text-align: center;
+		font: 36px 'Raleway', sans-serif;
+		@media (max-width: 640px) {
+			font-size: 24px;
+		}
+		@media (max-width: 450px) {
+			font-size: 18px;
+		}
+	}
+}
