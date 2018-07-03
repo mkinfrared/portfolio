@@ -16,8 +16,10 @@
 		border-radius: 10px;
 		overflow: hidden;
 		box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 		cursor: default;
+		background-color: #FFFFFF;
+		transition: background-color 0.4s linear;
 		@media (max-width: 420px) {
 			width: 250px;
 			height: 420px;
@@ -144,6 +146,7 @@
 			}
 		}
 		&:hover {
+			background-color: #F1EDEA;
 			h3 {
 				background-color: @accent-color;
 				&:after {

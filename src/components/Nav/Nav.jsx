@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Nav.css';
 
 
@@ -24,16 +25,16 @@ class Nav extends Component {
 				</div>
 				<ul className={(open) ? 'open' : null}>
 					<li>
-						<a href="#">Home</a>
+						<AnchorLink href="#home">Home</AnchorLink>
 					</li>
 					<li>
-						<a href="#">Skills</a>
+						<AnchorLink href="#skills">Skills</AnchorLink>
 					</li>
 					<li>
-						<a href="#">Portfolio</a>
+						<AnchorLink href="#projects">Projects</AnchorLink>
 					</li>
 					<li>
-						<a href="#">Contact</a>
+						<AnchorLink href="#contact">Contact</AnchorLink>
 					</li>
 				</ul>
 				<button className={`hamburger

@@ -9,7 +9,7 @@
 	position: absolute;
 	width: 100%;
 	z-index: 2;
-	@media (max-width: 640px) {
+	@media (max-width: 1024px) {
 		padding: 10px 0;
 		margin-top: 0;
 		background-color: rgba(0, 0, 0, 0.8);
@@ -18,10 +18,11 @@
 		margin-left: 5%;
 		p {
 			font: 34px 'Raleway', sans-serif;
-			color: #FFFFFF;
+			color: @accent-color;
 			padding: 0;
 			margin: 0;
 			position: relative;
+			cursor: default;
 		}
 	}
 	.open {
@@ -32,7 +33,7 @@
 	ul {
 		margin-right: 5%;
 		display: flex;
-		@media (max-width: 640px) {
+		@media (max-width: 1024px) {
 			max-height: 0;
 			overflow: hidden;
 			display: block;
@@ -43,14 +44,14 @@
 		}
 		li {
 			margin-right: 10px;
-			@media (max-width: 640px) {
+			@media (max-width: 1024px) {
 				width: 100%;
 				text-align: center;
 				text-transform: uppercase;
 				background-color: rgba(0, 0, 0, 0.8);
 				padding: 20px 0;
 				border-bottom: 1px solid #FFFFFF;
-				&:last-child{
+				&:last-child {
 					border-bottom: none;
 				}
 			}
@@ -61,14 +62,18 @@
 				text-decoration: none;
 				font: 14px 'Montserrat', sans-serif;
 				outline: none;
-				color: #FFFFFF;
+				color: @accent-color;
+				transition: color 0.4s linear;
+				&:hover {
+					color: #FFFFFF;
+				}
 			}
 		}
 	}
 	.hamburger {
 		display: none;
 		margin-right: 5%;
-		@media (max-width: 640px) {
+		@media (max-width: 1024px) {
 			display: block;
 		}
 	}

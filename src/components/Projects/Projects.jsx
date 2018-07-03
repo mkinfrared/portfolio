@@ -3,7 +3,7 @@ import './Projects.css'
 
 function Projects() {
 	return (
-		<div className='projects'>
+		<div id='projects' className='projects'>
 			<h2>My Projects</h2>
 			<div className="projects-wrapper">
 				<a href="https://mkorotkov.com" target="_blank">

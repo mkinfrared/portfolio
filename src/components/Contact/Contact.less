@@ -1,14 +1,27 @@
 .contact {
 	min-height: 100vh;
+	background-color: #FBFAF8;
+	padding: 50px 0 0;
 	.contact-wrapper {
 		margin-top: 50px;
 		width: 100%;
 		height: calc(100vh - 42px);
 		background: url("/images/desk.jpg");
 		display: flex;
+		justify-content: space-around;
+		align-items: center;
 		img {
 			width: 100px;
 			height: 100px;
+			filter: brightness(0) invert(1);
+			transition: filter 0.2s linear;
+			&:hover {
+				filter: brightness(0) invert(75%);
+			}
+			@media (max-width: 500px) {
+				width: 50px;
+				height: 50px;
+			}
 		}
 	}
 }

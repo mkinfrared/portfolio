@@ -4,7 +4,7 @@ import './Skills.css'
 
 function Skills(props) {
 	return (
-		<div className='skills'>
+		<div id='skills' className='skills'>
 			<h2>My skills</h2>
 			<Blocks/>
 		</div>

@@ -8,8 +8,8 @@
 .arrows .arrow {
   width: 2vw;
   height: 2vw;
-  border-left: 3px solid #c5b199;
-  border-bottom: 3px solid #c5b199;
+  border-left: 3px solid #C5B199;
+  border-bottom: 3px solid #C5B199;
   position: absolute;
   top: 50px;
   left: 50%;
@@ -17,8 +17,8 @@
 }
 @media (max-width: 680px) {
   .arrows .arrow {
-    border-left: 1px solid #c5b199;
-    border-bottom: 1px solid #c5b199;
+    border-left: 1px solid #C5B199;
+    border-bottom: 1px solid #C5B199;
   }
 }
 .arrows .arrow-1 {

@@ -17,8 +17,10 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   cursor: default;
+  background-color: #FFFFFF;
+  transition: background-color 0.4s linear;
 }
 @media (max-width: 420px) {
   .blocks .block {
@@ -153,11 +155,14 @@
   background: url("/icons/photoshop-cc.svg") no-repeat center;
   background-size: contain;
 }
+.blocks .block:hover {
+  background-color: #F1EDEA;
+}
 .blocks .block:hover h3 {
-  background-color: #c5b199;
+  background-color: #C5B199;
 }
 .blocks .block:hover h3:after {
-  border-top-color: #c5b199;
+  border-top-color: #C5B199;
 }
 .blocks .block:hover li {
   color: #000000;
