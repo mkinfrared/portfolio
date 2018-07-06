@@ -1,5 +1,5 @@
-@import "../variables";
-@import "hamburgers.css";
+@import "../_variables.scss";
+@import "hamburgers";
 
 .nav {
 	display: flex;
@@ -18,7 +18,7 @@
 		margin-left: 5%;
 		p {
 			font: 34px 'Raleway', sans-serif;
-			color: @accent-color;
+			color: $accent-color;
 			padding: 0;
 			margin: 0;
 			position: relative;
@@ -62,7 +62,7 @@
 				text-decoration: none;
 				font: 14px 'Montserrat', sans-serif;
 				outline: none;
-				color: @accent-color;
+				color: $accent-color;
 				transition: color 0.4s linear;
 				&:hover {
 					color: #FFFFFF;

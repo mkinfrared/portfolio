@@ -1,6 +1,5 @@
 import React from 'react';
 import Blocks from '../Blocks/Blocks';
-import './Skills.css'
 
 function Skills(props) {
 	return (

@@ -1,4 +1,4 @@
-@import "../variables";
+@import "../_variables.scss";
 
 .blocks {
 	display: flex;
@@ -148,9 +148,9 @@
 		&:hover {
 			background-color: #F1EDEA;
 			h3 {
-				background-color: @accent-color;
+				background-color: $accent-color;
 				&:after {
-					border-top-color: @accent-color;
+					border-top-color: $accent-color;
 				}
 			}
 			li {

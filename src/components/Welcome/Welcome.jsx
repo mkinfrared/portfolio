@@ -2,7 +2,6 @@ import React from 'react';
 import Typed from 'react-typed';
 import {Parallax, Background} from 'react-parallax';
 import Arrows from '../Arrows/Arrows';
-import './Welcome.css'
 
 function Welcome(props) {
 	return (

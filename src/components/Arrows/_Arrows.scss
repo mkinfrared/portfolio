@@ -1,4 +1,4 @@
-@import "../variables";
+@import "../_variables.scss";
 
 .arrows {
 	position: absolute;
@@ -9,15 +9,15 @@
 	.arrow {
 		width: 2vw;
 		height: 2vw;
-		border-left: 3px solid @accent-color;
-		border-bottom: 3px solid @accent-color;
+		border-left: 3px solid $accent-color;
+		border-bottom: 3px solid $accent-color;
 		position: absolute;
 		top: 50px;
 		left: 50%;
 		transform: rotate(-45deg);
 		@media (max-width: 680px) {
-			border-left: 1px solid @accent-color;
-			border-bottom: 1px solid @accent-color;
+			border-left: 1px solid $accent-color;
+			border-bottom: 1px solid $accent-color;
 		}
 	}
 	.arrow-1 {
