@@ -1088,7 +1088,7 @@ h2 {
 }
 
 .welcome {
-  width: 100%;
+  flex-basis: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -1205,6 +1205,7 @@ h2 {
   cursor: default;
   background-color: #FFFFFF;
   transition: background-color 0.4s linear;
+  padding: 0;
 }
 @media (max-width: 420px) {
   .blocks .block {
@@ -1370,7 +1371,7 @@ h2 {
 .contact {
   min-height: 100vh;
   padding: 50px 0 0;
-  background-color: #777777;
+  background-color: #FBFAF8;
 }
 .contact .contact-wrapper {
   margin-top: 50px;
@@ -1416,68 +1417,92 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.projects .projects-wrapper a {
+.projects .projects-wrapper .project {
+  background-color: #555555;
+  position: relative;
   text-decoration: none;
   outline: 1px solid #000000;
   width: calc(100% / 4);
-  position: relative;
-  overflow: hidden;
+  padding: 0;
 }
 @media (max-width: 1025px) {
-  .projects .projects-wrapper a {
+  .projects .projects-wrapper .project {
     width: 50%;
   }
 }
 @media (max-width: 640px) {
-  .projects .projects-wrapper a {
+  .projects .projects-wrapper .project {
     width: 100%;
   }
 }
-.projects .projects-wrapper a:after {
-  content: "Movie App built with react and nodejs";
-  color: #FFFFFF;
-  text-align: center;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  padding: 33% 0;
-  background-color: rgba(197, 177, 153, 0.95);
-  position: absolute;
-  top: 0;
-  transform: translateY(100%);
-  opacity: 0;
-  transition: all 0.2s linear;
-}
-.projects .projects-wrapper a:hover:after {
-  transform: scale3d(1, 1, 1);
-  opacity: 1;
-}
-.projects .projects-wrapper a:hover .snapshot img {
-  transform: scale(1.1);
-}
-.projects .projects-wrapper a .project {
-  background-color: #555555;
-}
-.projects .projects-wrapper a .project .snapshot {
+.projects .projects-wrapper .project .snapshot {
   width: 100%;
   padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
 }
-.projects .projects-wrapper a .project .snapshot img {
+.projects .projects-wrapper .project .snapshot img {
+  display: block;
   width: 100%;
   white-space: nowrap;
   transition: transform 0.2s linear;
 }
-.projects .projects-wrapper a .project .description {
-  padding: 5px 20px;
+.projects .projects-wrapper .project .snapshot .description {
+  width: 100%;
+  height: 100%;
+  background-color: #C5B199;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+@media (min-width: 1025px) {
+  .projects .projects-wrapper .project .snapshot:hover .description {
+    opacity: 0.9;
+  }
+}
+.projects .projects-wrapper .project .brief-desc {
+  padding: 10px 20px;
+  margin: 0;
   font: 16px "Montserrat", sans-serif;
   color: #C5B199;
   display: flex;
-  flex-flow: column;
-  justify-content: center;
+  flex-flow: row;
+  justify-content: space-between;
   width: 100%;
+  z-index: 4;
 }
-.projects .projects-wrapper a .project .description p {
+.projects .projects-wrapper .project .brief-desc a {
+  text-decoration: none;
+}
+.projects .projects-wrapper .project .brief-desc a h4 {
+  color: #C5B199;
+}
+.projects .projects-wrapper .project .brief-desc a p {
+  color: #B7B7B7;
+}
+.projects .projects-wrapper .project .brief-desc div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+.projects .projects-wrapper .project .brief-desc div p {
   color: #878787;
+}
+.projects .projects-wrapper .project .brief-desc div a {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  width: 20px;
+}
+.projects .projects-wrapper .project .brief-desc div a img {
+  height: 30px;
+  border: none;
+  outline: none;
 }
 
 .skills {
