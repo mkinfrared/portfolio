@@ -34,7 +34,7 @@ function Projects() {
 								<p>Movie Theater App</p>
 							</a>
 							<div>
-								<a href="">
+								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank'>
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
@@ -65,7 +65,7 @@ function Projects() {
 								<p>Movie Theater App</p>
 							</a>
 							<div>
-								<a href="">
+								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank'>
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
@@ -96,7 +96,7 @@ function Projects() {
 								<p>Movie Theater App</p>
 							</a>
 							<div>
-								<a href="">
+								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank'>
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
@@ -127,7 +127,7 @@ function Projects() {
 								<p>Movie Theater App</p>
 							</a>
 							<div>
-								<a href="">
+								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank'>
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
@@ -158,7 +158,7 @@ function Projects() {
 								<p>Movie Theater App</p>
 							</a>
 							<div>
-								<a href="">
+								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank'>
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
@@ -189,7 +189,7 @@ function Projects() {
 								<p>Movie Theater App</p>
 							</a>
 							<div>
-								<a href="">
+								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank'>
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
@@ -220,7 +220,7 @@ function Projects() {
 								<p>Movie Theater App</p>
 							</a>
 							<div>
-								<a href="">
+								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank'>
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
@@ -251,7 +251,7 @@ function Projects() {
 								<p>Movie Theater App</p>
 							</a>
 							<div>
-								<a href="">
+								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank'>
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
