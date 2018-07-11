@@ -1451,6 +1451,10 @@ h2 {
 .projects .projects-wrapper .project .snapshot .description {
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  padding: 20px;
   background-color: #C5B199;
   position: absolute;
   z-index: 1;
@@ -1459,9 +1463,12 @@ h2 {
   opacity: 0;
   transition: opacity 0.2s linear;
 }
+.projects .projects-wrapper .project .snapshot .description p {
+  color: #FFFFFF;
+}
 @media (min-width: 1025px) {
   .projects .projects-wrapper .project .snapshot:hover .description {
-    opacity: 0.9;
+    opacity: 0.95;
   }
 }
 .projects .projects-wrapper .project .brief-desc {
