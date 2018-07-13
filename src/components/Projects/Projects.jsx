@@ -55,7 +55,9 @@ function Projects() {
 										Spotify clone as well as producing music playback. My main responsibilty was to
 										achieve authentication using a users Spotify information through PassportJs,
 										setting up the NodeJs server to connect to th Spotify API, and initializing and
-										connecting the Spotify SDK music player.
+										connecting the Spotify SDK music player. The project was developed with help
+										of <a href='http://tayte.website' target='_blank'>Tayte Stokes</a> and <a
+										href='https://www.jordanbuonforte.com' target='_blank'>Jordan Buonforte</a>.
 									</p>
 								</div>
 							</a>
