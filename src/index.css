@@ -1137,6 +1137,8 @@ h2 {
   .arrows .arrow {
     border-left: 1px solid #C5B199;
     border-bottom: 1px solid #C5B199;
+    width: 6vw;
+    height: 6vw;
   }
 }
 .arrows .arrow-1 {

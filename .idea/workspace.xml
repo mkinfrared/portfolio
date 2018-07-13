@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="890a3d45-cdd7-43ff-b453-a43f05009518" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="890a3d45-cdd7-43ff-b453-a43f05009518" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +14,8 @@
       <file leaf-file-name="Projects.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Projects/Projects.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="56" column="86" selection-start-line="56" selection-start-column="86" selection-end-line="56" selection-end-column="86" />
+            <state relative-caret-position="240">
+              <caret line="56" column="94" selection-start-line="56" selection-start-column="87" selection-end-line="56" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -143,10 +140,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-498" />
-    <option name="y" value="-43" />
-    <option name="width" value="1955" />
-    <option name="height" value="1086" />
+    <option name="x" value="-499" />
+    <option name="y" value="-44" />
+    <option name="width" value="1956" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -254,7 +251,7 @@
       <workItem from="1531499598097" duration="8000" />
       <workItem from="1531499675236" duration="764000" />
       <workItem from="1531500991511" duration="657000" />
-      <workItem from="1531504208262" duration="237000" />
+      <workItem from="1531504208262" duration="576000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1530470123079</created>
@@ -368,11 +365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531501527173</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="edited spootify description">
+      <created>1531504564766</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1531504564766</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81162000" />
+    <option name="totallyTimeSpent" value="81434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +389,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -460,7 +463,8 @@
     <MESSAGE value="fixed github link" />
     <MESSAGE value="added group project" />
     <MESSAGE value="added Tayte and Jordan as references in group project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Tayte and Jordan as references in group project" />
+    <MESSAGE value="edited spootify description" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited spootify description" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -722,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Projects/Projects.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="56" column="86" selection-start-line="56" selection-start-column="86" selection-end-line="56" selection-end-column="86" />
+        <state relative-caret-position="240">
+          <caret line="56" column="94" selection-start-line="56" selection-start-column="87" selection-end-line="56" selection-end-column="94" />
         </state>
       </provider>
     </entry>
