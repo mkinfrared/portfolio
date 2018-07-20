@@ -20,14 +20,14 @@ function Contact() {
 				<Bounce bottom
 						delay={300}
 						duration={1000}>
-					<a href="https://www.linkedin.com/in/mikhail-korotkov/" target="_blank">
+					<a href="https://www.linkedin.com/in/mikhail-korotkov/" target="_blank" rel="noopener noreferrer">
 						<img src="/icons/linkedin.svg" alt="linkedIN"/>
 					</a>
 				</Bounce>
 				<Bounce right
 						delay={300}
 						duration={1000}>
-					<a href="https://github.com/mkinfrared" target="_blank">
+					<a href="https://github.com/mkinfrared" target="_blank" rel="noopener noreferrer">
 						<img src="/icons/Octicons-mark-github-2.svg" alt="github"/>
 					</a>
 				</Bounce>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Slide, Bounce} from 'react-reveal';
+import {Bounce} from 'react-reveal';
 
 function Blocks(props) {
 	return (

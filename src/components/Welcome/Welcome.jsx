@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
-import {Parallax, Background} from 'react-parallax';
+import {Parallax} from 'react-parallax';
 import Arrows from '../Arrows/Arrows';
 
 function Welcome(props) {

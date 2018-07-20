@@ -2,6 +2,12 @@ import React from 'react';
 import {Bounce} from 'react-reveal';
 
 function Projects() {
+
+	function redirect(url) {
+		console.log('redirecting')
+		window.open(url, '_blank');
+	}
+
 	return (
 		<div id='projects' className='projects'>
 			<Bounce top
@@ -16,7 +22,7 @@ function Projects() {
 					<div className="project">
 						<div className="snapshot">
 							<img src="/images/majestic.jpg" alt="majestic"/>
-							<a href="https://majestic.mkorotkov.com" target="_blank">
+							<a href="https://majestic.mkorotkov.com" target="_blank" rel="noopener noreferrer">
 								<div className='description'>
 									<p>
 										Movie theater app that helps movie theater administrators to add movies to the
@@ -29,12 +35,12 @@ function Projects() {
 							</a>
 						</div>
 						<div className="brief-desc">
-							<a href="https://majestic.mkorotkov.com" target="_blank">
+							<a href="https://majestic.mkorotkov.com" target="_blank" rel="noopener noreferrer">
 								<h4>Majestic</h4>
 								<p>Movie Theater App</p>
 							</a>
 							<div>
-								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank'>
+								<a href="https://github.com/mkinfrared/personal-project-i" target='_blank' rel="noopener noreferrer">
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
@@ -47,7 +53,7 @@ function Projects() {
 					<div className="project">
 						<div className="snapshot">
 							<img src="/images/spootify.jpg" alt="spootify"/>
-							<a href="https://www.spootify.org" target="_blank">
+							<a href="https://www.spootify.org" target="_blank" rel="noopener noreferrer">
 								<div className='description'>
 									<p>
 										The Idea behind this project was to clone Spotify desktop application. Using
@@ -56,19 +62,19 @@ function Projects() {
 										authenticating by using a Spotify profile information through PassportJs,
 										setting up the NodeJs server to connect to the Spotify API, and initializing and
 										connecting the Spotify SDK music player. The project was developed with help
-										of <a href='http://tayte.website' target='_blank'>Tayte Stokes</a> and <a
-										href='https://www.jordanbuonforte.com' target='_blank'>Jordan Buonforte</a>.
+										of <span onClick={() => redirect('http://tayte.website')}>Tayte Stokes</span> and <span
+										onClick={() => redirect('https://www.jordanbuonforte.com')}>Jordan Buonforte</span>.
 									</p>
 								</div>
 							</a>
 						</div>
 						<div className="brief-desc">
-							<a href="https://www.spootify.org" target="_blank">
+							<a href="https://www.spootify.org" target="_blank" rel="noopener noreferrer">
 								<h4>Spootify</h4>
 								<p>Music Player App</p>
 							</a>
 							<div>
-								<a href="https://github.com/spootify/spootify" target='_blank'>
+								<a href="https://github.com/spootify/spootify" target='_blank' rel="noopener noreferrer">
 									<img src='/icons/Octicons-mark-github.svg' alt=""/>
 								</a>
 							</div>
