@@ -105,11 +105,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-504" />
-    <option name="y" value="-49" />
-    <option name="width" value="1961" />
-    <option name="height" value="1091" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-505" />
+    <option name="y" value="-50" />
+    <option name="width" value="1962" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -207,7 +207,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="scratch_12.es6" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.es6" working-dir="$PROJECT_DIR$" />
+    <configuration name="scratch_12.es6" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.es6" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.scratch_12.es6" />
