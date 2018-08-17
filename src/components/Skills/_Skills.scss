@@ -1,0 +1,14 @@
+.skills {
+	min-height: 100vh;
+	padding: 50px 100px;
+	width: 100%;
+	background-color: #FBFAF8;
+	position: relative;
+	.badges {
+		display: flex;
+		justify-content: flex-end;
+		@media (max-width: 520px) {
+			justify-content: center;
+		}
+	}
+}

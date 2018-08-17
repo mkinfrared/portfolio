@@ -1191,7 +1191,7 @@ h2 {
 
 .blocks {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 50px;
@@ -1301,10 +1301,6 @@ h2 {
 }
 .blocks .block ul .css:before {
   background: url("/icons/css-mobile.svg") no-repeat center;
-  background-size: contain;
-}
-.blocks .block ul .bootstrap:before {
-  background: url("/icons/");
   background-size: contain;
 }
 .blocks .block ul .javascript:before {
@@ -1540,9 +1536,19 @@ h2 {
 
 .skills {
   min-height: 100vh;
-  padding: 50px 50px;
+  padding: 50px 100px;
   width: 100%;
   background-color: #FBFAF8;
+  position: relative;
+}
+.skills .badges {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 520px) {
+  .skills .badges {
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

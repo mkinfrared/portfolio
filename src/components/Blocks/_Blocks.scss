@@ -2,7 +2,7 @@
 
 .blocks {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
@@ -101,10 +101,10 @@
 				background: url("/icons/css-mobile.svg") no-repeat center;
 				background-size: contain;
 			}
-			.bootstrap:before {
-				background: url("/icons/");
-				background-size: contain;
-			}
+			//.bootstrap:before {
+			//	background: url("/icons/");
+			//	background-size: contain;
+			//}
 			.javascript:before {
 				background: url("/icons/javascript-1.svg") no-repeat center;
 				background-size: contain;
