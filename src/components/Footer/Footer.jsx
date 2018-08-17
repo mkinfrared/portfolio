@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
 	return (
 		<div className='footer'>
-			<p>Copyright © 2018 Mikhail Korotkov. All Rights Reserved.</p>
+			<p>Mikhail Korotkov 2018</p>
 		</div>
 	);
 }
