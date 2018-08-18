@@ -1125,7 +1125,7 @@ h2 {
   position: absolute;
   z-index: 3;
   left: 50%;
-  top: 82%;
+  top: 80%;
   transform: translateX(-50%);
 }
 .arrows .arrow {
@@ -1168,7 +1168,7 @@ h2 {
     transform: translateY(0) rotate(-45deg);
   }
   99% {
-    transform: translateY(2vw) rotate(-45deg);
+    transform: translateY(20px) rotate(-45deg);
   }
   100% {
     transform: translateY(0) rotate(-45deg);
@@ -1180,7 +1180,7 @@ h2 {
     opacity: 1;
   }
   99% {
-    transform: translateY(1vw) rotate(-45deg);
+    transform: translateY(10px) rotate(-45deg);
     opacity: 0.5;
   }
   100% {
