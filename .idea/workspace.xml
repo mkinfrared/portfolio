@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="890a3d45-cdd7-43ff-b453-a43f05009518" name="Default" comment="changed arrows animation">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="890a3d45-cdd7-43ff-b453-a43f05009518" name="Default" comment="added description, keywords and author">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +14,12 @@
     <session id="458758249">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,14 +43,14 @@
           <entry key="html" value="183" />
           <entry key="jsx" value="46" />
           <entry key="scss" value="223" />
-          <entry key="txt" value="26" />
+          <entry key="txt" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="183" />
           <entry key="JSX Harmony" value="46" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="PLAIN_TEXT" value="66" />
           <entry key="SCSS" value="223" />
         </counts>
       </usages-collector>
@@ -67,7 +64,7 @@
             <entry file="file://$PROJECT_DIR$/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="192">
-                  <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+                  <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -75,7 +72,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Skills/Skills.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
+                <state relative-caret-position="384">
                   <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
@@ -240,10 +237,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-510" />
+    <option name="x" value="-513" />
     <option name="y" value="-55" />
-    <option name="width" value="1968" />
-    <option name="height" value="1098" />
+    <option name="width" value="1970" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -358,7 +355,8 @@
       <workItem from="1534468599624" duration="2285000" />
       <workItem from="1534816877653" duration="681000" />
       <workItem from="1534825196066" duration="150000" />
-      <workItem from="1538617490329" duration="334000" />
+      <workItem from="1538617490329" duration="979000" />
+      <workItem from="1538629629853" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <created>1530470123079</created>
@@ -493,11 +491,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534564182625</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added description, keywords and author">
+      <created>1538617956447</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1538617956447</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91908000" />
+    <option name="totallyTimeSpent" value="92578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,7 +517,7 @@
     <frame x="0" y="0" width="1676" height="943" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16503067" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16687116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -526,7 +531,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32928178" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27868852" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27868852" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32894737" />
       <window_info anchor="bottom" id="Quokka" order="13" weight="0.328084" />
@@ -613,7 +618,8 @@
     <MESSAGE value="edited spootify description" />
     <MESSAGE value="addedmedia queries to description section, fixed warning &quot;a cannot appear as a descendant of a&quot;" />
     <MESSAGE value="changed arrows animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed arrows animation" />
+    <MESSAGE value="added description, keywords and author" />
+    <option name="LAST_COMMIT_MESSAGE" value="added description, keywords and author" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -783,6 +789,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Skills/Skills.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Skills/_Skills.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -825,20 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Skills/Skills.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
